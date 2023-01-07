@@ -1,0 +1,22 @@
+<Project>
+    <PropertyGroup>
+        <VersionPrefix>2.12.0.4</VersionPrefix>
+        <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+        <Authors>macula.io</Authors>
+        <Company>DisComCo Sp.z.o.o</Company>
+        <Copyright>Copyright (c)2019-2023 by DisComCo</Copyright>
+        <TargetFramework>net7.0</TargetFramework>
+        <SignAssembly>true</SignAssembly>
+        <AssemblyOriginatorKeyFile>../../dot-cart.snk</AssemblyOriginatorKeyFile>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <PackageIcon>discomco-favicon.png</PackageIcon>
+        <PackageProjectUrl>https://github.com/discomco/dot-cart</PackageProjectUrl>
+        <LangVersion>latest</LangVersion>
+        <RepositoryUrl>https://github.com/discomco/dot-cart</RepositoryUrl>
+        <PackageProjectUrl>https://dotcart.io</PackageProjectUrl>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="../../icons/discomco-favicon.png" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
+</Project>
